@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: #eef2f3;
+    text-align: center;
+}
+
+a {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+form {
+    background: white;
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}

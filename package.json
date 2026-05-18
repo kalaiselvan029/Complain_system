@@ -1,0 +1,17 @@
+{
+  "name": "complaint-management",
+  "version": "1.0.0",
+  "description": "Complaint Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.4",
+    "express": "^4.22.1",
+    "mysql2": "^3.16.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
