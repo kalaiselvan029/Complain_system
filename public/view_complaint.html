@@ -1,45 +1,28 @@
-<!DOCTYPE html>
-<html>
+<h2 align="center">Complaint List</h2>
 
-<head>
-    <title>View Complaints</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<div align="center">
+    <input type="text" placeholder="Search Complaint" class="search">
+</div>
 
-<body>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Complaint</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
 
-    <h2>All Complaints</h2>
+    <tr>
+        <td>1</td>
+        <td>Kalaiselvan</td>
+        <td>Network Issue</td>
+        <td><span class="pending">Pending</span></td>
 
-    <table border="1" align="center" cellpadding="10">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Complaint</th>
-            <th>Status</th>
-        </tr>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
 
-        <!-- Sample static data (for UI view) -->
-        <tr>
-            <td>1</td>
-            <td>Arun</td>
-            <td>arun@gmail.com</td>
-            <td>Water leakage in hostel</td>
-            <td>Pending</td>
-        </tr>
-
-        <tr>
-            <td>2</td>
-            <td>Priya</td>
-            <td>priya@gmail.com</td>
-            <td>Electricity issue</td>
-            <td>Solved</td>
-        </tr>
-    </table>
-
-    <br>
-    <a href="index.html">Back to Home</a>
-
-</body>
-
-</html>
+</table>

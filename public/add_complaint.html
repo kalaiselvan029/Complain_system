@@ -1,21 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Add Complaint</title>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Add Complaint
+    </title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <h2>Register Complaint</h2>
+    <div class="form-container">
 
-    <form action="/add-complaint" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea name="complaint" placeholder="Write your complaint" required></textarea>
-        <button>Submit</button>
-    </form>
+        <h2>
+            Register Complaint
+        </h2>
+
+        <form action="/add-complaint" method="POST">
+
+            <input type="text" name="name" placeholder="Enter Name" required>
+
+            <input type="email" name="email" placeholder="Enter Email" required>
+
+            <select name="category" required>
+
+                <option value="">
+                    Select Category
+                </option>
+
+                <option value="Network">
+                    Network
+                </option>
+
+                <option value="Hardware">
+                    Hardware
+                </option>
+
+                <option value="Software">
+                    Software
+                </option>
+
+                <option value="Maintenance">
+                    Maintenance
+                </option>
+
+            </select>
+
+            <select name="priority" required>
+
+                <option value="">
+                    Select Priority
+                </option>
+
+                <option value="High">
+                    High
+                </option>
+
+                <option value="Medium">
+                    Medium
+                </option>
+
+                <option value="Low">
+                    Low
+                </option>
+
+            </select>
+
+            <textarea name="complaint" rows="5" placeholder="Enter Complaint" required></textarea>
+
+            <button type="submit">
+                Submit Complaint
+            </button>
+
+        </form>
+
+    </div>
 
 </body>
 
